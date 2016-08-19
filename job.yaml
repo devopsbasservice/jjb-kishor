@@ -2,7 +2,7 @@
     name: locanda_jjb_<appndid>
     project-type: freestyle
     defaults: global
-    description: 'Build and Deploy of Locanda via JJB - Arunes'
+    description: 'Build and Deploy of Locanda via JJB - Kishor JJB'
     block-downstream: false
     concurrent: true
     node: master
@@ -14,7 +14,7 @@
           url: https://github.com/devops-basservice/locanda.git
           branches:
             - master
-          git-config-name: Kishore Ramanan
+          git-config-name: Kishore
           git-config-email: kishorramanan@gmail.com
           extensions:
             per-build-tag: true
